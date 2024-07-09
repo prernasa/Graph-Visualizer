@@ -11,8 +11,11 @@ Users can add or remove vertices and edges by selecting different modes from the
 The algorithm results for each algorithm is displayed as follows:
 
 -For Breadth-First Search: BFS : <The traversal separated by "->">. Example: BFS : A -> B -> C -> D -> E -> F
+
 -For Depth-First Search: DFS : <The traversal separated by "->">. Example: DFS : B -> C -> A -> D -> F -> E
+
 -For Dijkstra's: A list of = pairs separated by a comma. Example: A=1, B=2, C=3, D=4, which means that the shortest paths of A, B, C, D from the selected source vertex are 1, 2, 3, 4 respectively.
+
 -For Prim's: A list of the = pairs separated by a comma. Example: B=A, C=B, D=A, which means that the parents of B, C, and D in the minimum spanning tree are A, B, and A respectively.
 
 How to run -
